@@ -1,0 +1,160 @@
+* {
+
+}
+
+html {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	background: url(images/brickwall.png);
+	color: #777777;
+
+}
+
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 3px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 26px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+p {
+	line-height: 1.1em;
+}
+
+nav {
+	float: right;
+	line-height: 90px;
+	margin-right: 60px;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+	color: #ccc;
+}
+
+a:hover {
+	color: gray;
+}
+
+input {
+	width: 100%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+textarea {
+	width: 100%;
+    margin: 10px 0;
+}
+
+#main-nav > ul > li + li {
+	border-left: 1px solid #ccc;
+}
+
+#main-nav > ul > li > a {
+	text-decoration: none;
+}
+
+.header-inner {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main-content {
+	max-width:960px;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom:80px;
+}
+
+.logo {
+	float: left;
+    margin: 0;
+    line-height: 30px;
+    background: #4aaaa5;
+    padding: 30px;
+    color: white;
+}
+
+.header {
+	height: 90px;
+	background: white;
+	margin-bottom: 20px;
+}
+
+.page-content {
+	width: 618px;
+	float: left;
+	padding: 20px 15px;
+	margin-right:10px;
+	background: #fff;
+	border: 1px solid #dddddd;
+}
+
+.sidebar {
+	width: 248px;
+    float: left;
+    padding: 20px 10px;
+    background: #fff;
+    border: 1px solid #dddddd;
+}
+
+.footer {
+	clear: both;
+	height:70px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align: center;
+	line-height: 70px;
+	background: #666;
+	border-top: 7px solid #4aaaa5;
+	color: white;
+}
+
+#profile-picture {
+	margin: 0 10px 10px 0;
+	float:left;
+}
+
+#submit_button {
+	font-size:100%;
+    padding: 20px 30px;
+    background: #4aaaa5;
+    width: initial;
+    margin: initial;
+    line-height: 10%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flex {
+	display: inline-flex;
+	float: none;
+}
